@@ -57,7 +57,9 @@ class SwitchNotifier():
             self.message += url + "\n\n"
         else:
             print url, False
-
+    
+    # sendEmail method from:
+    # https://www.mkyong.com/python/how-do-send-email-in-python-via-smtplib/
     def sendEmail(self, msg):
         to = 'xxxxxxx@gmail.com'
         # enter your email address and password
